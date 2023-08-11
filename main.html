@@ -8,19 +8,19 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<form>
+	<form method="get">
 		<h1>Feedback Form</h1>
 	
-		<label>Name: </label>
+		<label for="name">Name: </label>
 		<input type="text" id="name" minlength="3" maxlength="50" required>
 		<br>
-		<label>Portfolio: </label>
+		<label for="portfolio">Portfolio: </label>
 		<input type="url" id="portfolio" required>
 		<br>
-		<label>Favourite Color: </label>
+		<label for="favColor">Favourite Color: </label>
 		<input type="color" id="favColor">
 		<br>
-		<label>Likeness: </label>
+		<label for="likeness">Likeness: </label>
 		<input type="range" id="likeness" minlength="1" maxlength="100" required>
 		<br>
 		<input type="submit" value="post">
